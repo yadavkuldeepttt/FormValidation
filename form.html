@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="https://kit.fontawesome.com/25efc1ea52.js"
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        <div class="container">
+            <form action class="formbox">
+                <h3>Create Account</h3>
+                <div class="form_control">
+                    <label for="username">Username</label><br>
+                    <input type="text" placeholder="kuldeep_123" name="username"
+                        required id="username"><br>
+                    <i class="fas fa-check-circle "></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small></small>
+                </div>
+
+                <div class="form_control">
+
+                    <label for="email">Email</label><br>
+                    <input type="email" placeholder="example@gmail.com"
+                        name="email" id="email"><br>
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small></small>
+                </div>
+                <div class="form_control">
+                    <label for="password">Password</label><br>
+                    <input type="password" name="password" placeholder="..."
+                        id="password"><br>
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small></small>
+                </div>
+                <div class="form_control">
+                    <label for="repassword">Retype Password</label><br>
+                    <input type="password" name="retypepassword"
+                        placeholder="..." id="retype"><br>
+                    <i class="fas fa-eye-slash" id="eyeIcon"></i>
+
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small></small>
+                </div>
+
+                <input type="submit" value="Submit " id="submitbtn">
+
+            </form>
+        </div>
+
+        <script src="form.js"></script>
+    </body>
+</html>
